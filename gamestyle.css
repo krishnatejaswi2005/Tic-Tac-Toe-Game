@@ -1,0 +1,37 @@
+* {
+	margin: auto;
+	padding: auto;
+	box-sizing: border-box;
+}
+.box {
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	cursor: pointer;
+	font-size: 30px;
+	background-color: aliceblue;
+	color: rgb(0, 0, 0);
+	border: 1px rgb(93, 93, 93) solid;
+}
+
+.game {
+	display: flex;
+	width: 150px;
+	height: 150px;
+	flex-wrap: wrap;
+	margin-top: 15px;
+}
+.reset {
+	margin-top: 20px;
+	border: 2px black solid;
+	border-radius: 5px;
+}
+#status {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 50px;
+	font-weight: bolder;
+}
